@@ -1,1 +1,33 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  font-family: "WDXL Lubrifont JP N", "Philosopher", "Roboto", sans-serif;
+}
+
+.philosopher-regular {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.philosopher-bold {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.philosopher-regular-italic {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.philosopher-bold-italic {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.wdxl-lubrifont-jp-n-regular {
+  font-family: "WDXL Lubrifont JP N", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
