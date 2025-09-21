@@ -1,14 +1,20 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './layout/header/header.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    RouterOutlet
+    ,HeaderComponent
+    ,FooterComponent
+  ],
   template: `
-    <header>ヘッダーです1</header>
+    <app-header></app-header>
     <menu>サイドメニューです2</menu>
     <main class="main">メインです3</main>
-    <footer>フッターです4</footer>
+    <app-footer></app-footer>
     <router-outlet />
   `
 })
