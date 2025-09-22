@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { MaterialModule } from '../../material/material-module';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-sidenav',
   imports: [MaterialModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  templateUrl: './sidenav.component.html',
+  styleUrl: './sidenav.component.scss'
 })
-export class HeaderComponent {
+export class SidenavComponent {
 
 }

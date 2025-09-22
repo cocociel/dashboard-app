@@ -1,0 +1,23 @@
+// 画面全体のCSS
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+// ヘッダーのCSS
+app-header {
+  height: 64px;
+}
+
+// フッターのCSS 
+app-footer {
+  height: 48px;
+}
+
+app-sidenav {
+  flex: 1;
+  display: flex;
+  overflow: auto;
+}
+
